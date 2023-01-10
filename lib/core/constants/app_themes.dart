@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'app_colors.dart';
 
-class ThemesApp {
+class AppThemes {
   static ThemeData light = ThemeData(
     brightness: Brightness.light,
-    scaffoldBackgroundColor: AppColors.white,
+    scaffoldBackgroundColor: AppColors.secondary,
     // appBarTheme: AppBarTheme(
     //   backgroundColor: AppColors.white,
     //   titleTextStyle: StylesApp.headline6.copyWith(

@@ -1,6 +1,6 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class SizesApp {
+class AppSizes {
   static final double r10 = 10.r;
   static final double r12 = 12.r;
   static final double r20 = 20.r;
@@ -37,4 +37,6 @@ class SizesApp {
   static final double sp18 = 18.sp;
   static final double sp10 = 10.sp;
   static final double sp11 = 11.sp;
+
+  static final double sp30 = 30.sp;
 }
