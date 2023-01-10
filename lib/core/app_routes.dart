@@ -1,12 +1,15 @@
+import 'package:exhibitiontoys/views/home_view/pages/home_page.dart';
+import 'package:exhibitiontoys/views/splash_view/splash_binding.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
-import '../views/splash_screen.dart';
+import '../views/splash_view/splash_page.dart';
 
 class AppRoutes {
   static const String initialPage = '/';
+   static const String homePage = '/homePage';
+
   // static const String splashScreen = '/splashScreen';
   // static const String onboardingScreen = '/onboardingScreen';
-  // static const String homeScreen = '/homeScreen';
   // static const String filterScreen = '/filterScreen';
   // static const String loginAndSignUpPage = '/LoginAndSignUpPage';
   // static const String myOrderPage = '/myOrderPage';
@@ -21,13 +24,13 @@ class AppRoutes {
     return <GetPage>[
       GetPage(
         name: initialPage,
-        page: () => const SplashScreen(),
+        page: () => const SplashPage(),
+        binding: SlpashBinding(),
       ),
-      // GetPage(
-      //   name: initialPage,
-      //   page: () => const HomeScreenRestaurant(),
-      //   binding: HomeScreenBinding(),
-      // ),
+      GetPage(
+        name: homePage,
+        page: () => const HomePage(),
+      ),
       // GetPage(
       //   name: onboardingScreen,
       //   page: () => const OnboardingScreen(),
