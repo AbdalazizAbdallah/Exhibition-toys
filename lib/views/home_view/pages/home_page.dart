@@ -1,3 +1,4 @@
+import 'package:exhibitiontoys/core/constants/app_sizes.dart';
 import 'package:exhibitiontoys/views/home_view/widgets/reserve_tickets_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,10 +17,13 @@ class HomePage extends GetView<HomeController> {
           Flexible(child: Container()),
           Flexible(
             flex: 2,
-            child: ListView.builder(
+            child: ListView.separated(
               itemCount: 10,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) => const ReserveTicketsWidget(),
+              separatorBuilder: (BuildContext context, int index) => SizedBox(
+                width: AppSizes.w15,
+              ),
             ),
           ),
           Flexible(child: Container()),
