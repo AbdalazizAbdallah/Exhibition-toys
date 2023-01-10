@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 
+import 'app_sizes.dart';
+
 class AppStyles {
+  /// [headline4] ==> 30.sp DIN font1
+  static final TextStyle headline4 = TextStyle(
+    fontSize: AppSizes.sp30,
+    fontFamily: 'DIN',
+  );
+
   // /// [subtitle2Din] ==> 14.sp dinNext font
   // static final TextStyle subtitle2Din = TextStyle(
   //   fontFamily: 'dinNext',
