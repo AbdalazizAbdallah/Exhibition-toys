@@ -8,7 +8,7 @@ class AppColors {
   static Color warning = const Color(0xFFE5B826);
   static Color info = const Color(0xFF2C3848);
 
-  // static Color grey = const Color(0xFF899597);
+  static Color grey = const Color(0xFF949494);
   // static Color greyLight = const Color(0xFFCCCCCC);
   // static Color greyTooLight = const Color(0xFFF4F4F6);
   // static Color whiteSuger = const Color(0xFFFAFAFA);
