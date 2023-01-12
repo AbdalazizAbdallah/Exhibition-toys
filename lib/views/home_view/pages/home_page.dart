@@ -11,7 +11,10 @@ class HomePage extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('HomePage')),
+      appBar: AppBar(
+        title: const Text('HomePage'),
+        // toolbarHeight: AppSizes.h320,
+      ),
       body: Column(
         children: [
           Flexible(child: Container()),
