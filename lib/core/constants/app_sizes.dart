@@ -1,6 +1,10 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppSizes {
+  static final double h5 = 5.h;
+  static final double h20 = 20.h;
+  static final double h60 = 60.h;
+
   static final double r10 = 10.r;
   static final double r12 = 12.r;
   static final double r20 = 20.r;
@@ -8,7 +12,6 @@ class AppSizes {
   static final double r80 = 80.r;
   static final double r48 = 48.r;
   static final double r16 = 16.r;
-  static final double r5 = 5.r;
   static final double r330 = 330.r;
   static final double r200 = 200.r;
   static final double r2 = 2.r;
@@ -39,4 +42,9 @@ class AppSizes {
   static final double sp11 = 11.sp;
 
   static final double sp30 = 30.sp;
+
+  static final double w285 = 285.w;
+  static final double w15 = 15.w;
+  static final double w317 = 317.w;
+  static final double w200 = 200.w;
 }
