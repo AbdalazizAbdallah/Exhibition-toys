@@ -11,6 +11,7 @@ class AppColors {
 
   static Color grey = const Color(0xFF949494);
   static Color greyLight = const Color(0xFFC1C1C1);
+  static Color greyLight2 = const Color(0xFFD4D4D4);
 
   // static Color greyTooLight = const Color(0xFFF4F4F6);
   // static Color whiteSuger = const Color(0xFFFAFAFA);

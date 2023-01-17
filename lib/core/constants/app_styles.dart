@@ -15,9 +15,15 @@ class AppStyles {
     fontFamily: 'DIN',
   );
 
-  /// [subtitle1] ==> 16.sp openSans font
+  /// [subtitle1] ==> 16.sp DIN font
   static final TextStyle subtitle1 = TextStyle(
     fontSize: AppSizes.sp16,
+    fontFamily: 'DIN',
+  );
+
+  /// [headline5] ==> 24.sp DIN font1
+  static final TextStyle headline5 = TextStyle(
+    fontSize: AppSizes.sp24,
     fontFamily: 'DIN',
   );
 

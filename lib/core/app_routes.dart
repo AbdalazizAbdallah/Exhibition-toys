@@ -29,7 +29,7 @@ class AppRoutes {
       ),
       GetPage(
         name: homePage,
-        page: () => const HomePage(),
+        page: () => HomePage(),
       ),
       // GetPage(
       //   name: onboardingScreen,

@@ -5,6 +5,8 @@ class AppSizes {
   static final double h20 = 20.h;
   static final double h60 = 60.h;
   static final double h320 = 320.h;
+  static final double h400 = 400.h;
+  static final double h78 = 78.h;
 
   static final double r10 = 10.r;
   static final double r12 = 12.r;
@@ -48,4 +50,6 @@ class AppSizes {
   static final double w15 = 15.w;
   static final double w317 = 317.w;
   static final double w200 = 200.w;
+  static final double w175 = 175.w;
+  static final double w125 = 125.w;
 }

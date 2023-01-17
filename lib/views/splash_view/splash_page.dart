@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
+import '../../core/widgets/whole_logo_wight.dart';
+
 class SplashPage extends GetView<SplashController> {
   const SplashPage({super.key});
 
@@ -13,25 +15,16 @@ class SplashPage extends GetView<SplashController> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            SvgPicture.asset(AppImages.mainLogo),
-            Text(
-              'riyadh_exhibition'.tr,
-              style: AppStyles.headline4.copyWith(
-                color: AppColors.primary,
-              ),
-            ),
-            Text(
-              'kids_toys'.tr,
-              style: AppStyles.headline4.copyWith(
-                color: AppColors.grey,
-              ),
-            ),
-          ],
+        child: WholeLogo(
+          nameOfAppStyle: AppStyles.headline4.copyWith(
+            color: AppColors.primary,
+          ),
+          subtitleLogoStyle: AppStyles.headline4.copyWith(
+            color: AppColors.grey,
+          ),
         ),
       ),
     );
   }
 }
+
