@@ -8,11 +8,12 @@ import 'package:get/get.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_styles.dart';
+import '../../../core/widgets/whole_logo_widget.dart';
 import '../controller/home_controller.dart';
 
 class HomePage extends GetView<HomeController> {
   HomePage({super.key});
-  
+
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -53,23 +54,14 @@ class HomePage extends GetView<HomeController> {
               children: [
                 SizedBox(
                   width: AppSizes.w175,
-                  child: Column(
-                    children: [
-                      SvgPicture.asset(AppImages.mainLogo,
-                          width: AppSizes.w125),
-                      Text(
-                        'riyadh_exhibition'.tr,
-                        style: AppStyles.headline5.copyWith(
-                          color: AppColors.secondary,
-                        ),
-                      ),
-                      Text(
-                        'kids_toys'.tr,
-                        style: AppStyles.headline6.copyWith(
-                          color: AppColors.greyLight2,
-                        ),
-                      ),
-                    ],
+                  child: WholeLogoWidget(
+                    widthLogo: AppSizes.w125,
+                    nameOfAppStyle: AppStyles.headline5.copyWith(
+                      color: AppColors.secondary,
+                    ),
+                    subtitleLogoStyle: AppStyles.subtitle1.copyWith(
+                      color: AppColors.greyLight2,
+                    ),
                   ),
                 ),
                 SizedBox(

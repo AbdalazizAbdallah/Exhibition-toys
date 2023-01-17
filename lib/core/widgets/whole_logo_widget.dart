@@ -1,17 +1,21 @@
+import 'package:exhibitiontoys/core/constants/app_sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 import '../constants/app_images.dart';
 
-class WholeLogo extends StatelessWidget {
+class WholeLogoWidget extends StatelessWidget {
   final TextStyle nameOfAppStyle;
   final TextStyle subtitleLogoStyle;
 
-  const WholeLogo({
+  final double? widthLogo;
+
+  const WholeLogoWidget({
     Key? key,
     required this.nameOfAppStyle,
     required this.subtitleLogoStyle,
+    this.widthLogo,
   }) : super(key: key);
 
   @override
@@ -19,7 +23,10 @@ class WholeLogo extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(AppImages.mainLogo),
+        SvgPicture.asset(
+          AppImages.mainLogo,
+          width: widthLogo,
+        ),
         Text(
           'riyadh_exhibition'.tr,
           style: nameOfAppStyle,
