@@ -9,6 +9,24 @@ class AppStyles {
     fontFamily: 'DIN',
   );
 
+  /// [headline6] ==> 20.sp DIN font1
+  static final TextStyle headline6 = TextStyle(
+    fontSize: AppSizes.sp20,
+    fontFamily: 'DIN',
+  );
+
+  /// [subtitle1] ==> 16.sp DIN font
+  static final TextStyle subtitle1 = TextStyle(
+    fontSize: AppSizes.sp16,
+    fontFamily: 'DIN',
+  );
+
+  /// [headline5] ==> 24.sp DIN font1
+  static final TextStyle headline5 = TextStyle(
+    fontSize: AppSizes.sp24,
+    fontFamily: 'DIN',
+  );
+
   // /// [subtitle2Din] ==> 14.sp dinNext font
   // static final TextStyle subtitle2Din = TextStyle(
   //   fontFamily: 'dinNext',
@@ -32,11 +50,6 @@ class AppStyles {
   //   fontSize: SizesApp.sp18,
   // );
 
-  // /// [subtitle1] ==> 16.sp openSans font
-  // static final TextStyle subtitle1 = GoogleFonts.openSans(
-  //   fontSize: SizesApp.sp16,
-  // );
-
   // /// [subtitle2] ==> 14.sp openSans font
   // static final TextStyle subtitle2 = GoogleFonts.openSans(
   //   fontSize: SizesApp.sp14,
@@ -50,11 +63,6 @@ class AppStyles {
   // /// [openSans] ==> 12.sp openSans font
   // static final TextStyle caption = GoogleFonts.openSans(
   //   fontSize: SizesApp.sp12,
-  // );
-
-  // /// [headline6] ==> 20.sp openSans font1
-  // static final TextStyle headline6 = GoogleFonts.openSans(
-  //   fontSize: SizesApp.sp20,
   // );
 
   // /// [headline5] ==> 24.sp openSans font1
